@@ -1,0 +1,1 @@
+- Sau khi thực hiện histogram equalization cho mỗi kênh màu, màu sắc của ảnh đã bị thay đổi hoàn toàn và khác xa so với ảnh gốc
