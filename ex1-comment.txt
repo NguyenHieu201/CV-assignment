@@ -1,3 +1,0 @@
-- Khi sử dụng phần V của HSV và phần L của Lab như một ảnh grayscale, thì ảnh biến thành một ảnh grayscale như khi ta convert trực tiếp ảnh thành grayscale từ ảnh gốc
-- Khi để phần V của HSV có giá trị bằng 1, ảnh trở nên tối đi, do phần V của hệ HSV thể hiện độ sáng của ảnh
-- Khi để phần L của Lab có giá trị bằng 1, màu sắc của ảnh tối đi, do phần L của hệ Lab thể hiện độ sáng của màu sắc
