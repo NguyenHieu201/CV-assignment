@@ -1,0 +1,9 @@
+Đánh giá về kết quả của Object detection và Object tracking.
+Phương pháp đánh giá: Đánh giá bài toán khi phát hiện (hoặc theo dõi) quả bóng trong video được cung cấp.
+Đối với bài toán Object detection, phương pháp phát hiện vật thể: threshold (color threshold được lấy dựa trên frame đầu tiên)
+Đối với bài toán Object tracking, phương pháp theo dõi: sử dụng một motion model đơn giản (định lý chuyển động của Newton)
+Kết quả:
+    - Về tốc độ: Object tracking có tốc độ vượt xa so với Object detection, vì phương trình chuyển động của vật thể đã được viết sẵn.
+    Ngược lại, Object detection cần phải xác định vị trí quả bóng qua từng frame khác nhau với thuật toán phức tạp hơn
+    - Về độ chính xác: Object detection có hiệu quả cao hơn Object tracking. Nguyên nhân do motion model quá đơn giản, tuy nhiên nếu tuning được, 
+    đối với video này motion model có thể đạt được hiệu quả tốt. (Vì chuyển động của quả bóng có thể tìm được bằng các phương pháp vật lý học)
